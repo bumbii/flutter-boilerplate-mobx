@@ -1,1 +1,1 @@
-# flutter-boilerplate-mobx
+# Yet another Flutter boilerplate using MobX to manage states
