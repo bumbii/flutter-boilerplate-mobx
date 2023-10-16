@@ -19,7 +19,7 @@ Future<void> setupFirebaseMessaging() async {
   /// In app notification listener
   /// Foreground: When the application is open, in view & in use.
   FirebaseMessaging.onMessage.listen((RemoteMessage message) {
-    final RemoteNotification? notification = message.notification;
+    // final RemoteNotification? notification = message.notification;
     // FlutterAppBadger.updateBadgeCount(1);
   });
 
@@ -30,11 +30,10 @@ Future<void> setupFirebaseMessaging() async {
   });
 }
 
-// TODO: Consider using this in main screen
 Future<void> handleNotificationFromTerminatedApp() async {
   // The app is opened from notification received when the app is terminated.
-  final RemoteMessage? message =
-      await FirebaseMessaging.instance.getInitialMessage();
+  // final RemoteMessage? message =
+  //     await FirebaseMessaging.instance.getInitialMessage();
   // FlutterAppBadger.updateBadgeCount(1);
 }
 
