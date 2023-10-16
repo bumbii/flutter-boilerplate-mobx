@@ -1,13 +1,7 @@
-DateTime fromDateTimeJson(String? dateTime) {
+/// Parse milliseconds (a String) to datetime
+DateTime parseMillisecondsToDateTime(String? dateTime) {
   if (dateTime == null || dateTime.isEmpty) {
     return DateTime.fromMillisecondsSinceEpoch(0);
   }
   return DateTime.parse(dateTime).toLocal();
-}
-
-String toDateTimeJson(DateTime? dateTime) {
-  if (dateTime == null) {
-    return '';
-  }
-  return dateTime.toString();
 }
