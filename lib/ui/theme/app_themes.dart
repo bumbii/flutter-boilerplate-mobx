@@ -4,7 +4,6 @@ import 'package:flutter_boilerplate_mobx/enum/app_theme.dart';
 import 'package:flutter_boilerplate_mobx/ui/theme/app_colors.dart';
 import 'package:flutter_boilerplate_mobx/ui/theme/app_text_styles.dart';
 
-const String defaultFontFamily = Fonts.baiJamjuree;
 
 final Map<AppTheme, ThemeData> appThemes = {
   AppTheme.dark: ThemeData(
