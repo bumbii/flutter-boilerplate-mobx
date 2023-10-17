@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_boilerplate_mobx/assets/fonts/fonts.dart';
 import 'package:flutter_boilerplate_mobx/ui/theme/app_colors.dart';
 import 'package:flutter_boilerplate_mobx/ui/theme/app_dimens.dart';
-import 'package:flutter_boilerplate_mobx/ui/theme/app_themes.dart';
 
 class AppTextStyles {
   AppTextStyles._();
